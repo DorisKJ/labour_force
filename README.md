@@ -1,5 +1,4 @@
-# labour_force
-Labour force characteristics of immigrants in canada
+# Labour force characteristics of immigrants in canada
 Objective
 Determine the labour force characteristics, ie employement or unemplyement, based on education attainement. Additional characteristics such as employment rate where observed. The data was collected from 2006 to 2022.
 Features and definitions:
