@@ -1,0 +1,80 @@
+﻿"Cube Title","Product Id","CANSIM Id",URL,"Cube Notes","Archive Status",Frequency,"Start Reference Period","End Reference Period","Total number of dimensions"
+"Labour force characteristics of immigrants by country of birth, annual","14100089","282-0108","https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1410008901",1;3,"CURRENT - a cube available to the public and that is current","Annual","2006-01-01","2023-01-01","6",
+
+"Dimension ID","Dimension name","Dimension Notes","Dimension Definitions"
+"1","Geography",15,""
+"2","Immigrant status",,""
+"3","Country of birth",14,""
+"4","Labour force characteristics",,""
+"5","Sex",,""
+"6","Age group",,""
+
+"Dimension ID","Member Name","Classification Code","Member ID","Parent Member ID",Terminated,"Member Notes","Member Definitions"
+"1","Canada","[11124]","1","","",,
+"2","Landed immigrants","","2","1","",5,
+"2","Born in Canada","","6","1","",,
+"2","Immigrants, landed 5 or less years earlier","","3","2","",,
+"2","Immigrants, landed more than 5 to 10 years earlier","","4","2","",,
+"2","Immigrants, landed more than 10 years earlier","","5","2","",,
+"2","Total population","","1","","",4,
+"3","Canada","","2","1","",,
+"3","North America","","3","1","",,
+"3","Latin America","","4","1","",,
+"3","Europe","","5","1","",,
+"3","Africa","","6","1","",,
+"3","Asia","","7","1","",,
+"3","Total population","","1","","",,
+"4","Labour force","","2","1","",7,
+"4","Not in labour force","","5","1","",10,
+"4","Employment","","3","2","",8,
+"4","Unemployment","","4","2","",9,
+"4","Population","","1","","",6,
+"4","Unemployment rate","","6","","",11,
+"4","Participation rate","","7","","",12,
+"4","Employment rate","","8","","",13,
+"5","Males","","2","1","",,
+"5","Females","","3","1","",,
+"5","Both sexes","","1","","",,
+"6","15 years and over","","1","","",,
+"6","25 to 54 years","","2","","",,
+
+Symbol Legend
+Description,Symbol
+"not available for a specific reference period","..",
+"less than the limit of detection","<LOD",
+"value rounded to 0 (zero) where there is a meaningful distinction between true zero and the value that was rounded","0s",
+"data quality: excellent","A",
+"data quality: very good","B",
+"data quality: good","C",
+"data quality: acceptable","D",
+"use with caution","E",
+"too unreliable to be published","F",
+"not applicable","...",
+"preliminary","p",
+"revised","r",
+"suppressed to meet the confidentiality requirements of the Statistics Act","x",
+"terminated","t",
+
+"Survey Code","Survey Name"
+"3701","Labour Force Survey"
+
+"Subject Code","Subject Name"
+"14","Labour"
+
+"Note ID",Note
+1,"To ensure respondent confidentiality, estimates below a certain threshold are suppressed. For Canada, Quebec, Ontario, Alberta and British Columbia suppression is applied to all data below 1,500. The threshold level for Newfoundland and Labrador, Nova Scotia, New Brunswick, Manitoba and Saskatchewan is 500, while in Prince Edward Island, estimates under 200 are supressed. For census metropolitan areas (CMAs) and economic regions (ERs), use their respective provincial suppression levels mentioned above. Estimates are based on smaller sample sizes the more detailed the table becomes, which could result in lower data quality."
+3,"The country of birth of the respondent. This is based on current geographic names and boundaries at the time of collection. Due to small sample sizes by country, estimates have been aggregated by continent for more robust analysis."
+4,"The sum of "Landed immigrants" and "Born in Canada" do not add up to the "Total". Included in the total are Canadian citizens born outside Canada and non-permanent residents."
+5,"Refers to people who are, or have been, landed immigrants in Canada. A landed immigrant is a person who has been granted the right to live in Canada permanently by immigration authorities. Canadian citizens by birth and non-permanent residents (persons from another country who live in Canada and have a work or study permit, or are claiming refugee status, as well as family members living here with them) are not landed immigrants."
+6,"Number of persons of working age, 15 years and over. Estimates in thousands, rounded to the nearest hundred."
+7,"Number of civilian, non-institutionalized persons 15 years of age and over who, during the reference week, were employed or unemployed. Estimates in thousands, rounded to the nearest hundred."
+8,"Number of persons who, during the reference week, worked for pay or profit, or performed unpaid family work or had a job but were not at work due to own illness or disability, personal or family responsibilities, labour dispute, vacation, or other reason. Those persons on layoff and persons without work but who had a job to start at a definite date in the future are not considered employed. Estimates in thousands, rounded to the nearest hundred."
+9,"Number of persons who, during the reference week, were without work, had looked for work in the past four weeks, and were available for work. Those persons on layoff or who had a new job to start in four weeks or less are considered unemployed. Estimates in thousands, rounded to the nearest hundred."
+10,"Persons in the civilian non-institutional population 15 years of age and over who, during the reference week, were neither employed nor unemployed. Estimates in thousands, rounded to the nearest hundred."
+11,"The unemployment rate is the number of unemployed persons expressed as a percentage of the labour force. The unemployment rate for a particular group (age, sex, marital status, etc.) is the number unemployed in that group expressed as a percentage of the labour force for that group. Estimates are percentages, rounded to the nearest tenth."
+12,"The participation rate is the number of labour force participants expressed as a percentage of the population 15 years of age and over. The participation rate for a particular group (age, sex, marital status, etc.) is the number of labour force participants in that group expressed as a percentage of the population for that group. Estimates are percentages, rounded to the nearest tenth."
+13,"The employment rate is the number of persons employed expressed as a percentage of the population 15 years of age and over. The employment rate for a particular group (age, sex, marital status, etc.) is the number employed in that group expressed as a percentage of the population for that group. Estimates are percentages, rounded to the nearest tenth."
+14,"The sum of the countries or continents do not add to the total. Oceania is included in the total but not presented individually since the population size is too small for all the breakdowns in this table."
+15,"Excluding the territories."
+
+"Correction ID","Correction Date","Correction Note"
